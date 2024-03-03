@@ -1,0 +1,12 @@
+# Status transaksi dan belanja Hilmi
+belanja_7_hari_berturut_turut = False
+total_pembelanjaan = 1000000  # Anggap Hilmi melakukan transaksi sebesar 1 juta
+
+# Mengecek apakah Hilmi mendapatkan voucher belanja
+if belanja_7_hari_berturut_turut or total_pembelanjaan > 1000000:
+    mendapatkan_voucher = True
+else:
+    mendapatkan_voucher = False
+
+# Menampilkan hasil
+print(f"Hilmi mendapatkan voucher belanja: {mendapatkan_voucher}")
